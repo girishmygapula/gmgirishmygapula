@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>RegisterHere!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="utkarsh">
+    <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="icon" type="img/png" href="Perfect2.png" />
+    <link rel="stylesheet" href="registerpage.css" type="text/css" />
+    <script src="core.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+<h1> <i class="fa fa-user-circle" aria-hidden="true"> &nbsp </i>Register Here!</h1>
+        </div>
+<div class="holder">
+    <form onsubmit='return false;'>
+
+        <div class="inputWithIcon">
+            <input type="text" class="username "name="username" placeholder="username" required>
+            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="inputWithIcon">
+            <input type="text" class="firstname" name="firstname" placeholder="firstname" required>
+            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="inputWithIcon">
+            <input type="text" class="lastname" name="lastname" placeholder="lastname" required>
+            <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+        </div>
+
+        <div class="inputWithIcon">
+            <input type="text" class="email" name="email" placeholder="email" required>
+            <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="inputWithIcon">
+            <input type="text" class="mobile" name="mobile" placeholder="mobile" required>
+            <i class="fa fa-phone fa-lg fa-fw" aria-hidden="true"></i>
+        </div>
+        <div class="inputWithIcon">
+            <input type="text" class="password" name="password" placeholder="password" required>
+            <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
+        </div>
+        <input type="hidden" class="actionType" name="actionType" value="registration" />
+        <button onclick="registration()" type="submit">Register</button>
+    </form>
+    
+
+    </form>
+</div>
+</div>
+    </body>
+</html>
